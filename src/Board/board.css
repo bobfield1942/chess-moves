@@ -1,0 +1,49 @@
+
+
+.board{
+  margin: 20px;
+  border: 25px solid #333;
+  border-radius: 5%;
+}
+
+.row{
+  height: 60px;
+  display: flex;
+
+}
+
+.cell
+{
+  width: 60px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size:small;
+  
+}
+
+.cell:hover {
+  border: 1px solid rgb(72, 184, 78);
+  background-color: bisque;
+}
+
+.square-dark{
+  background-color: rgb(138, 135, 135);
+  background: url(images/chess-board-square-dark.jpg);
+}
+
+.square-light{
+  background-color: rgb(214, 214, 214);
+  background: url(images/chess-board-square-light.jpg);
+}
+
+.knight, .queen {
+  width: 50px;
+  height: 50px;
+  background: url(images/chess-pieces.png);
+  background-size: 600%;
+}
+
+.knight {
+  background-position: 154px -5px;
+}
+
